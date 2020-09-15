@@ -1,0 +1,21 @@
+:root{
+    --green: rgb(52, 161, 52);
+    --blue: rgb(59, 187, 226);
+    --orange: rgb(230, 146, 77);
+    --red: rgb(224, 108, 108);
+}
+.box{
+    width: 150px;
+    height: 80px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 7px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.position{font-weight: bold;}
+.lucro{color: var(--green);font-weight: bold;}
+.prejuizo{color: var(--red);font-weight: bold;}
+.taxaLucro{color: var(--blue);}
+.taxaPrejuizo{color: var(--orange);}
